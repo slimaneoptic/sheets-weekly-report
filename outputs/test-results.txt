@@ -1,0 +1,165 @@
+TAP version 13
+# Subtest: cleaning: trims spaces and merges names that differ only in case or spacing
+ok 1 - cleaning: trims spaces and merges names that differ only in case or spacing
+  ---
+  duration_ms: 14.119289
+  ...
+# Subtest: cleaning: exact duplicates are removed after trimming; a reused order ID with other values is flagged
+ok 2 - cleaning: exact duplicates are removed after trimming; a reused order ID with other values is flagged
+  ---
+  duration_ms: 2.884531
+  ...
+# Subtest: cleaning: dates (blank, unreadable, impossible, future, text formats)
+ok 3 - cleaning: dates (blank, unreadable, impossible, future, text formats)
+  ---
+  duration_ms: 2.399169
+  ...
+# Subtest: cleaning: real date cells keep their calendar day in the spreadsheet time zone
+ok 4 - cleaning: real date cells keep their calendar day in the spreadsheet time zone
+  ---
+  duration_ms: 2.770352
+  ...
+# Subtest: import: unticked "Convert text to numbers, dates, and formulas" keeps text; ticked reads n/n/yyyy in the locale order
+ok 5 - import: unticked "Convert text to numbers, dates, and formulas" keeps text; ticked reads n/n/yyyy in the locale order
+  ---
+  duration_ms: 2.651524
+  ...
+# Subtest: import: the sample gives the same clean data as text or ticked in a day-first locale; ticked in a US locale it does not
+ok 6 - import: the sample gives the same clean data as text or ticked in a day-first locale; ticked in a US locale it does not
+  ---
+  duration_ms: 168.85333
+  ...
+# Subtest: cleaning: amounts typed in many ways
+ok 7 - cleaning: amounts typed in many ways
+  ---
+  duration_ms: 1.517891
+  ...
+# Subtest: cleaning: bad amounts, quantities, currencies and missing fields go to Issues with the reason
+ok 8 - cleaning: bad amounts, quantities, currencies and missing fields go to Issues with the reason
+  ---
+  duration_ms: 5.340629
+  ...
+# Subtest: cleaning: currency symbols and lowercase codes are recognized
+ok 9 - cleaning: currency symbols and lowercase codes are recognized
+  ---
+  duration_ms: 1.521774
+  ...
+# Subtest: cleaning: names such as "constructor" or "__proto__" are ordinary values
+ok 10 - cleaning: names such as "constructor" or "__proto__" are ordinary values
+  ---
+  duration_ms: 2.022787
+  ...
+# Subtest: cleaning: a missing column stops the run with a clear message
+ok 11 - cleaning: a missing column stops the run with a clear message
+  ---
+  duration_ms: 2.999324
+  ...
+# Subtest: fx (live): fetches real USD rates once, then serves them from the cache
+ok 12 - fx (live): fetches real USD rates once, then serves them from the cache
+  ---
+  duration_ms: 206.587096
+  ...
+# Subtest: fx (live): converts each order to USD as amount / rate, and flags currencies without a rate
+ok 13 - fx (live): converts each order to USD as amount / rate, and flags currencies without a rate
+  ---
+  duration_ms: 211.282979
+  ...
+# Subtest: fx: reads both API formats and rejects a broken answer
+ok 14 - fx: reads both API formats and rejects a broken answer
+  ---
+  duration_ms: 2.910348
+  ...
+# Subtest: fx: when the API is down, saved rates up to 7 days old are used and the email says so
+ok 15 - fx: when the API is down, saved rates up to 7 days old are used and the email says so
+  ---
+  duration_ms: 1.45455
+  ...
+# Subtest: fx: a 4xx answer is not retried
+ok 16 - fx: a 4xx answer is not retried
+  ---
+  duration_ms: 1.291599
+  ...
+# Subtest: fx: with no rates at all the run stops, changes no output sheet, logs FAILED and emails the error
+ok 17 - fx: with no rates at all the run stops, changes no output sheet, logs FAILED and emails the error
+  ---
+  duration_ms: 7.321607
+  ...
+# Subtest: weeks: the report covers the last full Monday-Sunday week, or the week set in Settings
+ok 18 - weeks: the report covers the last full Monday-Sunday week, or the week set in Settings
+  ---
+  duration_ms: 1.69297
+  ...
+# Subtest: weeks: a run reports the last full week before its day in the sheet time zone; Settings > Report week ending overrides it
+ok 19 - weeks: a run reports the last full week before its day in the sheet time zone; Settings > Report week ending overrides it
+  ---
+  duration_ms: 41.715366
+  ...
+# Subtest: weeks: totals by week, region and product, top 5 and change vs previous week
+ok 20 - weeks: totals by week, region and product, top 5 and change vs previous week
+  ---
+  duration_ms: 1.522052
+  ...
+# Subtest: full run (live FX): every row is accounted for and the totals add up
+ok 21 - full run (live FX): every row is accounted for and the totals add up
+  ---
+  duration_ms: 219.644402
+  ...
+# Subtest: full run (live FX): the Issues sheet lists each dirty row of the sample with its reason
+ok 22 - full run (live FX): the Issues sheet lists each dirty row of the sample with its reason
+  ---
+  duration_ms: 229.017236
+  ...
+# Subtest: email: subject and HTML carry the real numbers, the issues and a link to the sheet
+ok 23 - email: subject and HTML carry the real numbers, the issues and a link to the sheet
+  ---
+  duration_ms: 208.15698
+  ...
+# Subtest: email: values from the sheet are escaped
+ok 24 - email: values from the sheet are escaped
+  ---
+  duration_ms: 2.008287
+  ...
+# Subtest: email: no owner email means no email, and the Run log says why
+ok 25 - email: no owner email means no email, and the Run log says why
+  ---
+  duration_ms: 7.472823
+  ...
+# Subtest: first run: with no Settings tab, it creates one with defaults, writes the report and explains the missing email
+ok 26 - first run: with no Settings tab, it creates one with defaults, writes the report and explains the missing email
+  ---
+  duration_ms: 1.592384
+  ...
+# Subtest: menu: Reports > Run weekly report and Install weekly trigger point to real functions
+ok 27 - menu: Reports > Run weekly report and Install weekly trigger point to real functions
+  ---
+  duration_ms: 1.639789
+  ...
+# Subtest: trigger: installing twice keeps one Monday 7 am trigger in the sheet time zone; remove deletes it
+ok 28 - trigger: installing twice keeps one Monday 7 am trigger in the sheet time zone; remove deletes it
+  ---
+  duration_ms: 1.98645
+  ...
+# Subtest: trigger: a scheduled run works without any UI call
+ok 29 - trigger: a scheduled run works without any UI call
+  ---
+  duration_ms: 9.284499
+  ...
+# Subtest: scopes: the manifest asks only for narrow scopes, and the code uses nothing that needs more
+ok 30 - scopes: the manifest asks only for narrow scopes, and the code uses nothing that needs more
+  ---
+  duration_ms: 0.432108
+  ...
+# Subtest: safety: text that looks like a formula is written as text
+ok 31 - safety: text that looks like a formula is written as text
+  ---
+  duration_ms: 1.248423
+  ...
+1..31
+# tests 31
+# suites 0
+# pass 31
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1405.71226

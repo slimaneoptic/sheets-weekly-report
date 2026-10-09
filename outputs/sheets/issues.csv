@@ -1,0 +1,35 @@
+Orders row,Problem,Order ID,Order Date,Customer,Region,Product,Qty,Amount,Currency
+23,Order ID SO-10003 already used in row 4 with different values (row 4 kept),SO-10003,2026-08-03,CUST-0025,North America,Monitor Arm,1,126.00,USD
+41,Duplicate of row 27,SO-10025,2026-08-06,CUST-0076,United Kingdom,usb-c dock,1,95.00,GBP
+45,Missing region,SO-10042,2026-08-08,CUST-0072,,Webcam HD,2,126.00,USD
+106,Missing date,SO-10103,,CUST-0135,Europe,Office Chair,1,221.00,EUR
+107,"Bad amount: ""12..50"" is not a number",SO-10104,2026-08-15,CUST-0154,North America,Monitor Arm,1,12..50,USD
+117,Missing product,SO-10114,2026-08-16,CUST-0038,Morocco,,3,1341.00,MAD
+127,"Bad quantity: ""two"" (needs a whole number above 0)",SO-10123,2026-08-18,CUST-0044,North America,Headset,two,444.00,USD
+132,Missing currency,SO-10128,2026-08-18,CUST-0097,North America,Office Chair,1,242.00,
+153,Duplicate of row 142,SO-10138,2026-08-19,CUST-0147, United Kingdom  ,Monitor Arm,1,69.00,GBP
+166,"Bad quantity: ""0"" (needs a whole number above 0)",SO-10161,2026-08-22,CUST-0001,North America,Webcam HD,0,59.00,USD
+167,Missing date,SO-10162,,CUST-0152,Europe,Desk Lamp,1,43.00,EUR
+172,Missing order ID,,2026-08-23,CUST-0001,North America,USB-C Dock,1,123.00,USD
+197,Duplicate of row 186,SO-10181,2026-08-25,CUST-0160,North America,Monitor Arm,2,172.00,USD
+199,Bad amount: 0 (must be above 0),SO-10193,2026-08-26,CUST-0139,United Kingdom,Webcam HD,1,0,GBP
+230,Date in the future: 2027-01-15,SO-10224,2027-01-15,CUST-0169,North America,Office Chair,1,258.00,USD
+234,Missing date,SO-10228,,CUST-0054,Europe,USB-C Dock,1,120.00,EUR
+242,Order ID SO-10234 already used in row 240 with different values (row 240 kept),SO-10234,2026-08-31,CUST-0024,United Kingdom,Headset,1,159.00,GBP
+251,Missing currency,SO-10244,2026-08-31,CUST-0007,North America,Wireless Keyboard,1,66.00,
+267,"Unreadable date: ""31/09/2026""",SO-10260,31/09/2026,CUST-0111,Morocco,Headset,1,1417.00,MAD
+315,Missing date,SO-10308,,CUST-0132,United Kingdom,Headset,3,333.00,GBP
+330,Missing amount,SO-10323,2026-09-09,CUST-0104,North America,USB-C Dock,1,,USD
+343,Duplicate of row 328,SO-10321,2026-09-09,CUST-0146, Europe  ,Desk Lamp,1,38.00,EUR
+356,Duplicate of row 332,SO-10325,2026-09-10,CUST-0011,North America,Webcam HD,2,122.00,USD
+363,Duplicate of row 347,SO-10339,2026-09-11,CUST-0082, Europe  ,Office Chair,1,217.00,EUR
+379,Bad amount: -120.00 (must be above 0),SO-10368,2026-09-15,CUST-0109,North America,Desk Lamp,1,-120.00,USD
+381,"Unreadable date: ""TBD""",SO-10370,TBD,CUST-0108,Morocco,Wireless Keyboard,2,1330.00,MAD
+419,Duplicate of row 395,SO-10384,2026-09-16,CUST-0083,Europe,Standing Desk,3,1098.00,EUR
+425,"Bad amount: ""N/A"" is not a number",SO-10413,2026-09-20,CUST-0105,North America,Wireless Keyboard,2,N/A,USD
+429,"No exchange rate for currency: ""XYZ""",SO-10417,2026-09-20,CUST-0176,North America,Headset,1,154.00,XYZ
+437,"Bad amount: ""abc"" is not a number",SO-10425,2026-09-21,CUST-0063,Europe,Headset,1,abc,EUR
+449,Duplicate of row 448,SO-10436,2026-09-23,CUST-0138,United Kingdom,desk lamp,1,33.00,GBP
+460,Duplicate of row 446,SO-10434,2026-09-22,CUST-0101,North America,webcam hd,2,124.00,USD
+485,Duplicate of row 482,SO-10468,2026-09-25,CUST-0044, Europe  ,Standing Desk,1,382.00,EUR
+498,Missing date,SO-10483,,CUST-0076,Europe,Standing Desk,2,816.00,EUR

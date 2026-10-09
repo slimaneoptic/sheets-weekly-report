@@ -1,0 +1,10 @@
+Local test run of the Apps Script weekly report, 2026-10-02T01:04:35.896Z (spreadsheet time zone America/New_York)
+Input: orders.csv imported as text ("Convert text to numbers, dates, and formulas" unticked), as INSTALL.md says
+Clock: as of 2026-10-01, script clock = real clock (today is 2026-10-01 in America/New_York)
+Menu: Reports > Run weekly report | Install weekly trigger | Remove weekly trigger
+Trigger: runWeeklyReportScheduled every MONDAY at hour 7 (America/New_York)
+Run 1 (menu): OK. 21–27 Sep 2026: $12,986 revenue (+34.6% vs previous week). 500 rows read, 464 used, 34 left out (see the Issues sheet). Email sent to owner@example.com.
+  Exchange rates: live, dated 2026-10-02, fetched in 206 ms from https://api.frankfurter.dev/v2/rates?base=USD
+Run 2 (weekly trigger): OK. Rates from cache. HTTP requests so far: 1
+Run 3 (simulated outage, rate API unreachable, no saved rates): FAILED. Exchange rates are unavailable (Exception: getaddrinfo ENOTFOUND api.frankfurter.dev: https://api.frankfurter.dev/v2/rates?base=USD) and there are no saved rates from the last 7 days. Nothing in the spreadsheet was changed.
+  Retries: 3 requests. Output sheets created: none. Error email to: owner@example.com

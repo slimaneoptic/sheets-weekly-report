@@ -1,0 +1,6 @@
+{
+  "to": "owner@example.com",
+  "subject": "Weekly sales report, 21–27 Sep 2026: $12,986 (+34.6% vs previous week)",
+  "name": "Weekly report",
+  "note": "Captured by the MailApp mock in the local test run; not actually sent."
+}

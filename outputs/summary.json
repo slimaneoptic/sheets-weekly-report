@@ -1,0 +1,223 @@
+{
+  "week": {
+    "start": "2026-09-21",
+    "end": "2026-09-27",
+    "label": "21–27 Sep 2026"
+  },
+  "previousWeek": {
+    "start": "2026-09-14",
+    "end": "2026-09-20",
+    "label": "14–20 Sep 2026"
+  },
+  "kpis": {
+    "revenue": 12985.66,
+    "orders": 66,
+    "units": 82,
+    "avgOrder": 196.75,
+    "prevRevenue": 9649.09,
+    "prevOrders": 58,
+    "change": 0.3457911575081172
+  },
+  "weekly": [
+    {
+      "weekStart": "2026-08-03",
+      "label": "3–9 Aug",
+      "orders": 55,
+      "revenue": 10992.32,
+      "change": null
+    },
+    {
+      "weekStart": "2026-08-10",
+      "label": "10–16 Aug",
+      "orders": 55,
+      "revenue": 12872.75,
+      "change": 0.17106761811883225
+    },
+    {
+      "weekStart": "2026-08-17",
+      "label": "17–23 Aug",
+      "orders": 52,
+      "revenue": 11232.85,
+      "change": -0.12739313666465993
+    },
+    {
+      "weekStart": "2026-08-24",
+      "label": "24–30 Aug",
+      "orders": 58,
+      "revenue": 10965.53,
+      "change": -0.02379805659293943
+    },
+    {
+      "weekStart": "2026-08-31",
+      "label": "31 Aug–6 Sep",
+      "orders": 58,
+      "revenue": 12195.16,
+      "change": 0.11213593870975677
+    },
+    {
+      "weekStart": "2026-09-07",
+      "label": "7–13 Sep",
+      "orders": 62,
+      "revenue": 9876.09,
+      "change": -0.1901631466909823
+    },
+    {
+      "weekStart": "2026-09-14",
+      "label": "14–20 Sep",
+      "orders": 58,
+      "revenue": 9649.09,
+      "change": -0.022984804715226
+    },
+    {
+      "weekStart": "2026-09-21",
+      "label": "21–27 Sep",
+      "orders": 66,
+      "revenue": 12985.66,
+      "change": 0.3457911575081172
+    }
+  ],
+  "byRegion": [
+    {
+      "name": "Europe",
+      "orders": 23,
+      "units": 31,
+      "revenue": 5995.33,
+      "prevRevenue": 5818.8,
+      "change": 0.030337870351275133
+    },
+    {
+      "name": "North America",
+      "orders": 23,
+      "units": 28,
+      "revenue": 3319,
+      "prevRevenue": 2105,
+      "change": 0.5767220902612826
+    },
+    {
+      "name": "United Kingdom",
+      "orders": 11,
+      "units": 11,
+      "revenue": 2231.61,
+      "prevRevenue": 979.31,
+      "change": 1.278757492520244
+    },
+    {
+      "name": "Morocco",
+      "orders": 9,
+      "units": 12,
+      "revenue": 1439.72,
+      "prevRevenue": 745.98,
+      "change": 0.9299713129038312
+    }
+  ],
+  "byProduct": [
+    {
+      "name": "Standing Desk",
+      "orders": 8,
+      "units": 10,
+      "revenue": 4363.4,
+      "prevRevenue": 2562.49,
+      "change": 0.7027968889634691
+    },
+    {
+      "name": "Office Chair",
+      "orders": 10,
+      "units": 10,
+      "revenue": 2680.57,
+      "prevRevenue": 817.98,
+      "change": 2.2770605638279666
+    },
+    {
+      "name": "Headset",
+      "orders": 9,
+      "units": 13,
+      "revenue": 1988.97,
+      "prevRevenue": 1334.79,
+      "change": 0.49009956622390044
+    },
+    {
+      "name": "USB-C Dock",
+      "orders": 10,
+      "units": 11,
+      "revenue": 1456.53,
+      "prevRevenue": 2400.31,
+      "change": -0.3931908795113964
+    },
+    {
+      "name": "Wireless Keyboard",
+      "orders": 9,
+      "units": 13,
+      "revenue": 926.88,
+      "prevRevenue": 850.17,
+      "change": 0.09022901302092527
+    },
+    {
+      "name": "Monitor Arm",
+      "orders": 6,
+      "units": 8,
+      "revenue": 692.35,
+      "prevRevenue": 786.38,
+      "change": -0.11957323431419921
+    },
+    {
+      "name": "Desk Lamp",
+      "orders": 9,
+      "units": 11,
+      "revenue": 513,
+      "prevRevenue": 529.73,
+      "change": -0.031582126743812916
+    },
+    {
+      "name": "Webcam HD",
+      "orders": 5,
+      "units": 6,
+      "revenue": 363.96,
+      "prevRevenue": 367.24,
+      "change": -0.008931488944559496
+    }
+  ],
+  "top5": [
+    {
+      "rank": 1,
+      "name": "Standing Desk",
+      "orders": 8,
+      "units": 10,
+      "revenue": 4363.4,
+      "share": 0.3360168062308731
+    },
+    {
+      "rank": 2,
+      "name": "Office Chair",
+      "orders": 10,
+      "units": 10,
+      "revenue": 2680.57,
+      "share": 0.20642539539769256
+    },
+    {
+      "rank": 3,
+      "name": "Headset",
+      "orders": 9,
+      "units": 13,
+      "revenue": 1988.97,
+      "share": 0.15316664690127418
+    },
+    {
+      "rank": 4,
+      "name": "USB-C Dock",
+      "orders": 10,
+      "units": 11,
+      "revenue": 1456.53,
+      "share": 0.11216449529712005
+    },
+    {
+      "rank": 5,
+      "name": "Wireless Keyboard",
+      "orders": 9,
+      "units": 13,
+      "revenue": 926.88,
+      "share": 0.07137719607628723
+    }
+  ],
+  "dataFrom": "2026-08-03",
+  "dataTo": "2026-09-27"
+}

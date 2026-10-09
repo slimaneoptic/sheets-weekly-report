@@ -1,0 +1,614 @@
+[
+  {
+    "row": 23,
+    "id": "SO-10003",
+    "codes": [
+      "id_conflict"
+    ],
+    "reason": "Order ID SO-10003 already used in row 4 with different values (row 4 kept)",
+    "values": [
+      "SO-10003",
+      "2026-08-03",
+      "CUST-0025",
+      "North America",
+      "Monitor Arm",
+      "1",
+      "126.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 41,
+    "id": "SO-10025",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 27",
+    "values": [
+      "SO-10025",
+      "2026-08-06",
+      "CUST-0076",
+      "United Kingdom",
+      "usb-c dock",
+      "1",
+      "95.00",
+      "GBP"
+    ]
+  },
+  {
+    "row": 45,
+    "id": "SO-10042",
+    "codes": [
+      "missing_region"
+    ],
+    "reason": "Missing region",
+    "values": [
+      "SO-10042",
+      "2026-08-08",
+      "CUST-0072",
+      "",
+      "Webcam HD",
+      "2",
+      "126.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 106,
+    "id": "SO-10103",
+    "codes": [
+      "missing_date"
+    ],
+    "reason": "Missing date",
+    "values": [
+      "SO-10103",
+      "",
+      "CUST-0135",
+      "Europe",
+      "Office Chair",
+      "1",
+      "221.00",
+      "EUR"
+    ]
+  },
+  {
+    "row": 107,
+    "id": "SO-10104",
+    "codes": [
+      "bad_amount"
+    ],
+    "reason": "Bad amount: \"12..50\" is not a number",
+    "values": [
+      "SO-10104",
+      "2026-08-15",
+      "CUST-0154",
+      "North America",
+      "Monitor Arm",
+      "1",
+      "12..50",
+      "USD"
+    ]
+  },
+  {
+    "row": 117,
+    "id": "SO-10114",
+    "codes": [
+      "missing_product"
+    ],
+    "reason": "Missing product",
+    "values": [
+      "SO-10114",
+      "2026-08-16",
+      "CUST-0038",
+      "Morocco",
+      "",
+      "3",
+      "1341.00",
+      "MAD"
+    ]
+  },
+  {
+    "row": 127,
+    "id": "SO-10123",
+    "codes": [
+      "bad_qty"
+    ],
+    "reason": "Bad quantity: \"two\" (needs a whole number above 0)",
+    "values": [
+      "SO-10123",
+      "2026-08-18",
+      "CUST-0044",
+      "North America",
+      "Headset",
+      "two",
+      "444.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 132,
+    "id": "SO-10128",
+    "codes": [
+      "missing_currency"
+    ],
+    "reason": "Missing currency",
+    "values": [
+      "SO-10128",
+      "2026-08-18",
+      "CUST-0097",
+      "North America",
+      "Office Chair",
+      "1",
+      "242.00",
+      ""
+    ]
+  },
+  {
+    "row": 153,
+    "id": "SO-10138",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 142",
+    "values": [
+      "SO-10138",
+      "2026-08-19",
+      "CUST-0147",
+      " United Kingdom  ",
+      "Monitor Arm",
+      "1",
+      "69.00",
+      "GBP"
+    ]
+  },
+  {
+    "row": 166,
+    "id": "SO-10161",
+    "codes": [
+      "bad_qty"
+    ],
+    "reason": "Bad quantity: \"0\" (needs a whole number above 0)",
+    "values": [
+      "SO-10161",
+      "2026-08-22",
+      "CUST-0001",
+      "North America",
+      "Webcam HD",
+      "0",
+      "59.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 167,
+    "id": "SO-10162",
+    "codes": [
+      "missing_date"
+    ],
+    "reason": "Missing date",
+    "values": [
+      "SO-10162",
+      "",
+      "CUST-0152",
+      "Europe",
+      "Desk Lamp",
+      "1",
+      "43.00",
+      "EUR"
+    ]
+  },
+  {
+    "row": 172,
+    "id": "",
+    "codes": [
+      "missing_id"
+    ],
+    "reason": "Missing order ID",
+    "values": [
+      "",
+      "2026-08-23",
+      "CUST-0001",
+      "North America",
+      "USB-C Dock",
+      "1",
+      "123.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 197,
+    "id": "SO-10181",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 186",
+    "values": [
+      "SO-10181",
+      "2026-08-25",
+      "CUST-0160",
+      "North America",
+      "Monitor Arm",
+      "2",
+      "172.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 199,
+    "id": "SO-10193",
+    "codes": [
+      "bad_amount"
+    ],
+    "reason": "Bad amount: 0 (must be above 0)",
+    "values": [
+      "SO-10193",
+      "2026-08-26",
+      "CUST-0139",
+      "United Kingdom",
+      "Webcam HD",
+      "1",
+      "0",
+      "GBP"
+    ]
+  },
+  {
+    "row": 230,
+    "id": "SO-10224",
+    "codes": [
+      "future_date"
+    ],
+    "reason": "Date in the future: 2027-01-15",
+    "values": [
+      "SO-10224",
+      "2027-01-15",
+      "CUST-0169",
+      "North America",
+      "Office Chair",
+      "1",
+      "258.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 234,
+    "id": "SO-10228",
+    "codes": [
+      "missing_date"
+    ],
+    "reason": "Missing date",
+    "values": [
+      "SO-10228",
+      "",
+      "CUST-0054",
+      "Europe",
+      "USB-C Dock",
+      "1",
+      "120.00",
+      "EUR"
+    ]
+  },
+  {
+    "row": 242,
+    "id": "SO-10234",
+    "codes": [
+      "id_conflict"
+    ],
+    "reason": "Order ID SO-10234 already used in row 240 with different values (row 240 kept)",
+    "values": [
+      "SO-10234",
+      "2026-08-31",
+      "CUST-0024",
+      "United Kingdom",
+      "Headset",
+      "1",
+      "159.00",
+      "GBP"
+    ]
+  },
+  {
+    "row": 251,
+    "id": "SO-10244",
+    "codes": [
+      "missing_currency"
+    ],
+    "reason": "Missing currency",
+    "values": [
+      "SO-10244",
+      "2026-08-31",
+      "CUST-0007",
+      "North America",
+      "Wireless Keyboard",
+      "1",
+      "66.00",
+      ""
+    ]
+  },
+  {
+    "row": 267,
+    "id": "SO-10260",
+    "codes": [
+      "bad_date"
+    ],
+    "reason": "Unreadable date: \"31/09/2026\"",
+    "values": [
+      "SO-10260",
+      "31/09/2026",
+      "CUST-0111",
+      "Morocco",
+      "Headset",
+      "1",
+      "1417.00",
+      "MAD"
+    ]
+  },
+  {
+    "row": 315,
+    "id": "SO-10308",
+    "codes": [
+      "missing_date"
+    ],
+    "reason": "Missing date",
+    "values": [
+      "SO-10308",
+      "",
+      "CUST-0132",
+      "United Kingdom",
+      "Headset",
+      "3",
+      "333.00",
+      "GBP"
+    ]
+  },
+  {
+    "row": 330,
+    "id": "SO-10323",
+    "codes": [
+      "missing_amount"
+    ],
+    "reason": "Missing amount",
+    "values": [
+      "SO-10323",
+      "2026-09-09",
+      "CUST-0104",
+      "North America",
+      "USB-C Dock",
+      "1",
+      "",
+      "USD"
+    ]
+  },
+  {
+    "row": 343,
+    "id": "SO-10321",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 328",
+    "values": [
+      "SO-10321",
+      "2026-09-09",
+      "CUST-0146",
+      " Europe  ",
+      "Desk Lamp",
+      "1",
+      "38.00",
+      "EUR"
+    ]
+  },
+  {
+    "row": 356,
+    "id": "SO-10325",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 332",
+    "values": [
+      "SO-10325",
+      "2026-09-10",
+      "CUST-0011",
+      "North America",
+      "Webcam HD",
+      "2",
+      "122.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 363,
+    "id": "SO-10339",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 347",
+    "values": [
+      "SO-10339",
+      "2026-09-11",
+      "CUST-0082",
+      " Europe  ",
+      "Office Chair",
+      "1",
+      "217.00",
+      "EUR"
+    ]
+  },
+  {
+    "row": 379,
+    "id": "SO-10368",
+    "codes": [
+      "bad_amount"
+    ],
+    "reason": "Bad amount: -120.00 (must be above 0)",
+    "values": [
+      "SO-10368",
+      "2026-09-15",
+      "CUST-0109",
+      "North America",
+      "Desk Lamp",
+      "1",
+      "-120.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 381,
+    "id": "SO-10370",
+    "codes": [
+      "bad_date"
+    ],
+    "reason": "Unreadable date: \"TBD\"",
+    "values": [
+      "SO-10370",
+      "TBD",
+      "CUST-0108",
+      "Morocco",
+      "Wireless Keyboard",
+      "2",
+      "1330.00",
+      "MAD"
+    ]
+  },
+  {
+    "row": 419,
+    "id": "SO-10384",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 395",
+    "values": [
+      "SO-10384",
+      "2026-09-16",
+      "CUST-0083",
+      "Europe",
+      "Standing Desk",
+      "3",
+      "1098.00",
+      "EUR"
+    ]
+  },
+  {
+    "row": 425,
+    "id": "SO-10413",
+    "codes": [
+      "bad_amount"
+    ],
+    "reason": "Bad amount: \"N/A\" is not a number",
+    "values": [
+      "SO-10413",
+      "2026-09-20",
+      "CUST-0105",
+      "North America",
+      "Wireless Keyboard",
+      "2",
+      "N/A",
+      "USD"
+    ]
+  },
+  {
+    "row": 429,
+    "id": "SO-10417",
+    "codes": [
+      "unknown_currency"
+    ],
+    "reason": "No exchange rate for currency: \"XYZ\"",
+    "values": [
+      "SO-10417",
+      "2026-09-20",
+      "CUST-0176",
+      "North America",
+      "Headset",
+      "1",
+      "154.00",
+      "XYZ"
+    ]
+  },
+  {
+    "row": 437,
+    "id": "SO-10425",
+    "codes": [
+      "bad_amount"
+    ],
+    "reason": "Bad amount: \"abc\" is not a number",
+    "values": [
+      "SO-10425",
+      "2026-09-21",
+      "CUST-0063",
+      "Europe",
+      "Headset",
+      "1",
+      "abc",
+      "EUR"
+    ]
+  },
+  {
+    "row": 449,
+    "id": "SO-10436",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 448",
+    "values": [
+      "SO-10436",
+      "2026-09-23",
+      "CUST-0138",
+      "United Kingdom",
+      "desk lamp",
+      "1",
+      "33.00",
+      "GBP"
+    ]
+  },
+  {
+    "row": 460,
+    "id": "SO-10434",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 446",
+    "values": [
+      "SO-10434",
+      "2026-09-22",
+      "CUST-0101",
+      "North America",
+      "webcam hd",
+      "2",
+      "124.00",
+      "USD"
+    ]
+  },
+  {
+    "row": 485,
+    "id": "SO-10468",
+    "codes": [
+      "duplicate"
+    ],
+    "reason": "Duplicate of row 482",
+    "values": [
+      "SO-10468",
+      "2026-09-25",
+      "CUST-0044",
+      " Europe  ",
+      "Standing Desk",
+      "1",
+      "382.00",
+      "EUR"
+    ]
+  },
+  {
+    "row": 498,
+    "id": "SO-10483",
+    "codes": [
+      "missing_date"
+    ],
+    "reason": "Missing date",
+    "values": [
+      "SO-10483",
+      "",
+      "CUST-0076",
+      "Europe",
+      "Standing Desk",
+      "2",
+      "816.00",
+      "EUR"
+    ]
+  }
+]

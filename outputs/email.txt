@@ -1,0 +1,21 @@
+Weekly sales report, 21–27 Sep 2026 (USD)
+
+Revenue: $12,986 (+34.6% vs previous week)
+Orders: 66, average order $197
+
+By region:
+  Europe: $5,995 (+3.0%)
+  North America: $3,319 (+57.7%)
+  United Kingdom: $2,232 (+127.9%)
+  Morocco: $1,440 (+93.0%)
+
+Top 5 products:
+  1. Standing Desk: $4,363
+  2. Office Chair: $2,681
+  3. Headset: $1,989
+  4. USB-C Dock: $1,457
+  5. Wireless Keyboard: $927
+
+34 rows left out, see the Issues sheet.
+
+https://docs.google.com/spreadsheets/d/LOCAL-TEST/edit

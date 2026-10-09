@@ -1,0 +1,2 @@
+Run at,Started by,Status,Rows read,Clean orders,Issues,Report week,Revenue (USD),vs previous week,Exchange rates,Email sent to,Seconds,Note
+2026-10-01 21:04:36,weekly trigger,FAILED,500,,,,,,,owner@example.com (error email),0,Exchange rates are unavailable (Exception: getaddrinfo ENOTFOUND api.frankfurter.dev: https://api.frankfurter.dev/v2/rates?base=USD) and there are no saved rates from the last 7 days. Nothing in the spreadsheet was changed.

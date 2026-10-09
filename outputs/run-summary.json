@@ -1,0 +1,182 @@
+{
+  "note": "Local test run: the real Apps Script files in apps-script/ run in Node with mocked Google services; UrlFetchApp made a real request to the Frankfurter API. Emails were captured, not sent.",
+  "started_at": "2026-10-02T01:04:35.896Z",
+  "node": "v22.14.0",
+  "time_zone": "America/New_York",
+  "clock": {
+    "as_of_day": "2026-10-01",
+    "shift_hours": 0,
+    "note": "script clock = real clock (today is 2026-10-01 in America/New_York)"
+  },
+  "input": {
+    "file": "sample-data/orders.csv",
+    "import": "orders.csv imported as text (\"Convert text to numbers, dates, and formulas\" unticked), as INSTALL.md says",
+    "rows_read": 500,
+    "blank_rows_skipped": 2,
+    "clean_orders": 464,
+    "issue_rows": 34
+  },
+  "issues_by_reason": [
+    {
+      "reason": "Duplicate row",
+      "rows": 10
+    },
+    {
+      "reason": "Bad amount",
+      "rows": 5
+    },
+    {
+      "reason": "Missing date",
+      "rows": 5
+    },
+    {
+      "reason": "Bad quantity",
+      "rows": 2
+    },
+    {
+      "reason": "Missing currency",
+      "rows": 2
+    },
+    {
+      "reason": "Order ID reused with different values",
+      "rows": 2
+    },
+    {
+      "reason": "Unreadable date",
+      "rows": 2
+    },
+    {
+      "reason": "Date in the future",
+      "rows": 1
+    },
+    {
+      "reason": "Missing amount",
+      "rows": 1
+    },
+    {
+      "reason": "Missing order ID",
+      "rows": 1
+    },
+    {
+      "reason": "Missing product",
+      "rows": 1
+    },
+    {
+      "reason": "Missing region",
+      "rows": 1
+    },
+    {
+      "reason": "No exchange rate for currency",
+      "rows": 1
+    }
+  ],
+  "report_week": {
+    "start": "2026-09-21",
+    "end": "2026-09-27",
+    "label": "21–27 Sep 2026"
+  },
+  "previous_week": {
+    "start": "2026-09-14",
+    "end": "2026-09-20",
+    "label": "14–20 Sep 2026"
+  },
+  "kpis": {
+    "revenue": 12985.66,
+    "orders": 66,
+    "units": 82,
+    "avgOrder": 196.75,
+    "prevRevenue": 9649.09,
+    "prevOrders": 58,
+    "change": 0.3457911575081172
+  },
+  "data_from": "2026-08-03",
+  "data_to": "2026-09-27",
+  "fx": {
+    "date": "2026-10-02",
+    "source_run1": "live",
+    "source_run2": "cache",
+    "fetch_ms": 206,
+    "http_requests_total": 1,
+    "used": {
+      "EUR": 0.88352,
+      "GBP": 0.75461,
+      "MAD": 9.7254,
+      "USD": 1
+    }
+  },
+  "runs": [
+    {
+      "source": "menu",
+      "status": "OK",
+      "seconds": 0.2,
+      "fx": "2026-10-02 (live)",
+      "email": "owner@example.com"
+    },
+    {
+      "source": "weekly trigger",
+      "status": "OK",
+      "seconds": 0,
+      "fx": "2026-10-02 (cache)",
+      "email": "owner@example.com"
+    }
+  ],
+  "email": {
+    "to": "owner@example.com",
+    "subject": "Weekly sales report, 21–27 Sep 2026: $12,986 (+34.6% vs previous week)",
+    "bytes": 13092
+  },
+  "emails_captured": 2,
+  "menu": [
+    {
+      "caption": "Reports",
+      "items": [
+        {
+          "label": "Run weekly report",
+          "fn": "runWeeklyReportFromMenu"
+        },
+        {
+          "separator": true
+        },
+        {
+          "label": "Install weekly trigger",
+          "fn": "installWeeklyTrigger"
+        },
+        {
+          "label": "Remove weekly trigger",
+          "fn": "removeWeeklyTrigger"
+        }
+      ]
+    }
+  ],
+  "trigger": {
+    "handler": "runWeeklyReportScheduled",
+    "weekDay": "MONDAY",
+    "hour": 7,
+    "timeZone": "America/New_York"
+  },
+  "alerts": [
+    {
+      "title": "Weekly trigger installed",
+      "prompt": "The report will run every Monday between 7 and 8 am (America/New_York) and email owner@example.com."
+    },
+    {
+      "title": "Weekly report done",
+      "prompt": "21–27 Sep 2026: $12,986 revenue (+34.6% vs previous week). 500 rows read, 464 used, 34 left out (see the Issues sheet). Email sent to owner@example.com."
+    }
+  ],
+  "sheets": [
+    "Orders",
+    "Settings",
+    "Clean data",
+    "Issues",
+    "Summary",
+    "Run log"
+  ],
+  "simulated_outage": {
+    "status": "FAILED",
+    "message": "Exchange rates are unavailable (Exception: getaddrinfo ENOTFOUND api.frankfurter.dev: https://api.frankfurter.dev/v2/rates?base=USD) and there are no saved rates from the last 7 days. Nothing in the spreadsheet was changed.",
+    "requests": 3,
+    "output_sheets_written": [],
+    "error_email_subject": "Weekly report FAILED: Sales orders (sample)"
+  }
+}

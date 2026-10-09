@@ -1,0 +1,3 @@
+Run at,Started by,Status,Rows read,Clean orders,Issues,Report week,Revenue (USD),vs previous week,Exchange rates,Email sent to,Seconds,Note
+2026-10-01 21:04:35,menu,OK,500,464,34,21–27 Sep 2026,12985.66,0.3457911575081172,2026-10-02 (live),owner@example.com,0.2,
+2026-10-01 21:04:36,weekly trigger,OK,500,464,34,21–27 Sep 2026,12985.66,0.3457911575081172,2026-10-02 (cache),owner@example.com,0,

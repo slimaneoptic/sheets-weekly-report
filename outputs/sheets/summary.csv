@@ -1,0 +1,50 @@
+Weekly sales report: 21–27 Sep 2026,,,,
+"All amounts in USD. Updated 2026-10-01 21:04 (America/New_York). 34 row(s) left out, see the Issues sheet.",,,,
+,,,,
+This week,,,,
+Revenue (USD),Orders,Average order (USD),vs previous week,Previous week (USD)
+12985.66,66,196.75,0.3457911575081172,9649.09
+,,,,
+Revenue by week,,,,
+Week (Mon–Sun),Orders,Revenue (USD),vs previous week,
+3–9 Aug,55,10992.32,,
+10–16 Aug,55,12872.75,0.17106761811883225,
+17–23 Aug,52,11232.85,-0.12739313666465993,
+24–30 Aug,58,10965.53,-0.02379805659293943,
+31 Aug–6 Sep,58,12195.16,0.11213593870975677,
+7–13 Sep,62,9876.09,-0.1901631466909823,
+14–20 Sep,58,9649.09,-0.022984804715226,
+21–27 Sep,66,12985.66,0.3457911575081172,
+,,,,
+By region,,,,
+Region,Orders,Revenue (USD),Previous week (USD),vs previous week
+Europe,23,5995.33,5818.8,0.030337870351275133
+North America,23,3319,2105,0.5767220902612826
+United Kingdom,11,2231.61,979.31,1.278757492520244
+Morocco,9,1439.72,745.98,0.9299713129038312
+,,,,
+By product,,,,
+Product,Orders,Revenue (USD),Previous week (USD),vs previous week
+Standing Desk,8,4363.4,2562.49,0.7027968889634691
+Office Chair,10,2680.57,817.98,2.2770605638279666
+Headset,9,1988.97,1334.79,0.49009956622390044
+USB-C Dock,10,1456.53,2400.31,-0.3931908795113964
+Wireless Keyboard,9,926.88,850.17,0.09022901302092527
+Monitor Arm,6,692.35,786.38,-0.11957323431419921
+Desk Lamp,9,513,529.73,-0.031582126743812916
+Webcam HD,5,363.96,367.24,-0.008931488944559496
+,,,,
+Top 5 products,,,,
+Rank,Product,Revenue (USD),Share of week,
+1,Standing Desk,4363.4,0.3360168062308731,
+2,Office Chair,2680.57,0.20642539539769256,
+3,Headset,1988.97,0.15316664690127418,
+4,USB-C Dock,1456.53,0.11216449529712005,
+5,Wireless Keyboard,926.88,0.07137719607628723,
+,,,,
+"Exchange rates used (2026-10-02, cache)",,,,
+Currency,Units per 1 USD,,,
+EUR,0.88352,,,
+GBP,0.75461,,,
+MAD,9.7254,,,
+USD,1,,,

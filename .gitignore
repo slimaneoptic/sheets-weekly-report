@@ -1,0 +1,10 @@
+node_modules/
+.env
+.venv/
+__pycache__/
+*.egg-info/
+*.pid
+*.log
+.streamlit/secrets.toml
+*.key
+*.webm

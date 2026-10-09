@@ -1,0 +1,23 @@
+[
+  {
+    "type": "COLUMN",
+    "ranges": [
+      "A10:A17",
+      "C10:C17"
+    ],
+    "position": {
+      "row": 4,
+      "col": 7,
+      "offsetX": 0,
+      "offsetY": 0
+    },
+    "options": {
+      "title": "Revenue by week (USD)",
+      "legend": {
+        "position": "none"
+      },
+      "width": 560,
+      "height": 320
+    }
+  }
+]
